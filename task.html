@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SAMTECH GROUP OF SCHOOLS</title>
+    <style>
+        body{
+            background-color: darkslategrey;
+            font-family: Arial, SansSerif;
+            padding: 20px;
+        }
+        #heading{
+            font-size: 35px;
+            font-family: "DejaVu Sans";
+            text-align: center;
+            color: #333333;
+        }
+        .nav{
+            background-color: darkgreen;
+            font-size: 20px;
+            padding: 20px;
+            border-radius: 20px;
+            display: flex;
+            justify-content: right;
+        }
+        a{
+            text-align: left;
+            text-decoration: none;
+            padding: 10px;
+            color: coral;
+            margin-left: 20px;
+        }
+        .courses{
+            font-size: 20px;
+            padding: 15px;
+            font-family: Arial,Arial, cursive;
+            background-color: darkgreen;
+            border-radius: 20px;
+            color: #333333;
+            margin-bottom: 20px;
+        }
+        h2{
+            text-align: center;
+            color: #333333;
+
+        }
+        .table{
+            background-color: darkgreen;
+            border-radius: 20px;
+        }
+        table{
+      border-collapse: collapse;
+      padding: 20px 15px;
+            width: 100%;
+            border-radius: 20px;
+       }
+        th,td{
+            color: #333333;
+            border: #333333 solid 1px;
+text-align: center;
+      padding: 7px;
+        }
+        th{
+            color: coral;
+            font-size: 20px;
+        }
+        .form{
+            background-color: darkgreen;
+            border-radius: 20px;
+            padding: 20px;
+            margin-top: 15px;
+        }
+        label{
+            color: #333333;
+            font-size: 15px;
+            margin: 10px;
+        }
+        textarea,input{
+            border-radius: 20px;
+            padding: 5px;
+            background-color: antiquewhite;
+            color: #555555;
+            font-size: 15px;
+            font-family: Arial, SansSerif;
+        }
+       select
+    </style>
+</head>
+<body>
+<h1 id="heading">SAMTECH GROUP OF SCHOOLS</h1>
+<div class="nav">
+    <a href="">Home</a>
+    <a href="">About</a>
+    <a href="">Courses</a>
+    <a href="">Contact</a>
+</div>
+<hr>
+<div class="courses">
+    <h2>COURSES OFFERED</h2>
+    <ul>
+        <li>Cybersecurity</li>
+        <li>Aeronautical Engineering</li>
+        <li>Software Engineering</li>
+        <li>Data Analytics</li>
+    </ul>
+</div>
+<div class="table">
+    <table>
+        <tr>
+            <th>Course Name</th>
+            <th>Duration</th>
+            <th>Fees</th>
+        </tr>
+        <tr>
+            <td>Cybersecurity</td>
+            <td>4.5 Months</td>
+            <td>ksh.56000</td>
+        </tr>
+        <tr>
+            <td>Aeronautical Engineering</td>
+            <td>3 Years</td>
+            <td>ksh.456000</td>
+        </tr>
+        <tr>
+            <td>Software Engineering</td>
+            <td>4 Years</td>
+            <td>ksh.430000</td>
+        </tr>
+        <tr>
+            <td>Data Analytics</td>
+            <td>3 Months</td>
+            <td>ksh.46000</td>
+        </tr>
+    </table>
+</div>
+ <div class="form">
+        <h2>REGISTER HERE</h2>
+     <form action="">
+         <h3>Enter Your Details</h3>
+         <label>NAME:
+          <input type="text">
+         </label><br><br>
+         <label>
+             EMAIL:
+             <input type="email">
+         </label><br><br>
+         <label id="tr">
+             COURSE:
+             <select>
+                 <option>Cybersecurity</option>
+                 <option>Aeronautical Engineering</option>
+                 <option>Software Engineering</option>
+                 <option>Data Analytics</option>
+             </select>
+         </label><br><br>
+         <label>QUERIES:</label><br><br>
+         <textarea cols="45" rows="10"></textarea><br><br>
+         <button>SUBMIT</button>
+     </form>
+    </div>
+</body>
+</html>

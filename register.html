@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Form</title>
+    <style>
+        h3{
+            color: cadetblue;
+            font-size: 36px;
+            text-align: center;
+            font-family: Arial, SansSerif;
+            text-decoration: underline;
+        }
+        form{
+            background-color: blanchedalmond;
+            color: black;
+            padding: 30px;
+            width: 400px;
+            border-radius: 12px;
+        }
+        label{
+            font-family: sans-serif;
+            font-size: 15px;
+            color: cadetblue;
+        }
+        h4{
+            color: cadetblue;
+            font-size: 20px;
+            font-family: Arial;
+        }
+        input{
+            border-radius: 9px;
+            border: cadetblue 2px solid;
+            font-family:    sans-serif;
+            font-size: 15px;
+            color: cadetblue;
+            width: 100%;
+            padding: 7px;
+        }
+        select,textarea{
+            font-size: 15px;
+            font-family: sans-serif;
+            color: cadetblue;
+            border-radius: 9px;
+            border: cadetblue 2px solid;
+            width: 100%;
+            padding: 7px;
+        }
+        button{
+            font-family: SansSerif;
+            border: none;
+            font-size: 20px;
+            border-radius: 20px;
+            background-color: darkgray;
+            padding: 5px;
+            width: 100%;
+            color: cadetblue;
+        }
+        button:hover {
+  cursor: pointer;
+  background-color: cornflowerblue;
+  color: white;
+}
+button {
+  background-color: #eee;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #333;
+  color: #fff;
+  transform: scale(1.1);
+}
+a:hover {
+  color: cornflowerblue;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+}
+#cursor {
+  width: 20px;
+  height: 20px;
+  background: cornflowerblue;
+  border-radius: 50%;
+  position: absolute;
+  pointer-events: none;
+  transition: transform 0.1s ease;
+}
+
+    </style>
+</head>
+<body>
+<h3>SUGGESTION FORM</h3>
+<form action="">
+    <h4>ENTER YOUR SUGGESTIONS HERE</h4>
+    <label>NAME:</label><br>
+    <input type="text">
+    <br>
+    <br>
+    <label>EMAIL:</label><br>
+    <input type="email"> <br>
+    <br>
+    <label>PHONE NO:</label><br>
+    <input type="number">
+    <br>
+    <br>
+    <label>CATEGORY:</label><br>
+    <select>
+        <option>EMPLOYEE</option>
+        <option>SUPPLIER</option>
+        <OPTION>CLIENT</OPTION>
+        <option>BUSINESS PARTNER</option>
+    </select><br><br>
+    <label>COMMENT:</label><br>
+    <textarea cols="30" rows="10"></textarea><br><br>
+    <button>SUBMIT</button>
+</form>
+<nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#scholarships">Scholarships</a></li>
+    <li><a href="#apply">Apply</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+<article>
+  <h2>Stipendium Hungaricum Scholarship</h2>
+  <p>Full tuition + stipend + accommodation. Apply by Jan 2026.</p>
+</article>
+<article>
+  <h2>Turkiye Burslari Scholarship</h2>
+  <p>Full tuition + housing. Application deadline Feb 2026.</p>
+</article>
+<aside>
+  <h3>Tips for Scholarship Applications</h3>
+  <ul>
+    <li>Prepare your documents in advance</li>
+    <li>Write a strong personal statement</li>
+    <li>Check deadlines carefully</li>
+  </ul>
+</aside>
+<div id="cursor"></div>
+</body>
+</html>
